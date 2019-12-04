@@ -1,0 +1,14 @@
+dist: xenial
+language: python
+python:
+  - "3.5"
+  - "3.6"
+  - "3.7"
+install:
+  - pip install -r requirements.txt
+script:
+  - python src/A_star_search.py 1  # Manhattan Dist heuristic
+  - python src/Greedy_search.py 1  # Misplaced Tiles heuristic
+  - python src/A_star_search.py 2  # Manhattan Dist heuristic
+  - python src/Greedy_search.py 2  # Misplaced Tiles heuristic
+  

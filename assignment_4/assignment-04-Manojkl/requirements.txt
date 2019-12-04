@@ -1,0 +1,3 @@
+Numpy array.
+Numpy asrray is used in move_up,move_down,move_right,move_left functions to swap the zero with the target position. 
+converting list to numpy array makes it easier to acces the location of target and zero and makes it easier for swapping. 
